@@ -14,7 +14,7 @@ export default class Greeter extends React.Component {
   }
 
   render() {
-    let name = 'reraeraer';
+    let name = 'peter';
     let color = 'green';
     return (
       <div>

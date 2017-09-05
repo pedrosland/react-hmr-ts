@@ -1,5 +1,5 @@
 import { AppContainer } from 'react-hot-loader';
-import Greeter from './Greeter.js';
+import Greeter from './Greeter.tsx';
 import ReactDOM from 'react-dom';
 import React from 'react';
 
@@ -17,7 +17,7 @@ render(Greeter);
 
 if (module.hot) {
   module.hot.accept('./Greeter', () => {
-    const NextApp = require('./Greeter.js').default;
+    const NextApp = require('./Greeter.tsx').default;
     render(NextApp);
   });
 }
